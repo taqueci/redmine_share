@@ -1,0 +1,3 @@
+mk:
+  share_notice_email_sent: "Е-порака е пратена на"
+  share_notice_email_error: "Се случи грешка при праќање на е-пораката"

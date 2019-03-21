@@ -1,0 +1,3 @@
+vi:
+  share_notice_email_sent: "Email đã được gửi tới"
+  share_notice_email_error: "Lỗi xảy ra khi gửi email"
