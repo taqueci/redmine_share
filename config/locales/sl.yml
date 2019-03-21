@@ -1,3 +1,9 @@
 sl:
+  share_button: Share
+  share_title: "Share link"
+  share_label_with: "Share with"
+  share_label_page: "Page"
+  share_label_subject: "%{sender} shared %{record} with you"
+  share_text_message: "%{sender} shared %{record} with you."
   share_notice_email_sent: "E-poštno sporočilo je bilo poslano"
   share_notice_email_error: "Ob pošiljanju e-sporočila je prišlo do napake"
