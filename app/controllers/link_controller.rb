@@ -75,9 +75,8 @@ class LinkController < ApplicationController
     avtr = view_context.avatar(user, size: AVATAR_SIZE.to_s)
 
     avtr.blank? ?
-      ActionController::Base.helpers.image_tag(
-        '/plugin_assets/redmine_local_avatars/images/default.png',
-        size: AVATAR_SIZE.to_s, class: 'gravatar') :
+      view_context.image_tag('default.png', plugin: 'redmine_share',
+                             size: AVATAR_SIZE.to_s, class: 'gravatar') :
       avtr
   end
 end
