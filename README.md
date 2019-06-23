@@ -1,6 +1,6 @@
 # Redmine Share plugin
 
-This plugin adds a functionality to sharing an issue link.
+This plugin adds a simple sharing feature.
 
 This plugin works with Redmine 4.0.0 or later.
 
