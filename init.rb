@@ -7,4 +7,4 @@ Redmine::Plugin.register :redmine_share do
   author_url 'https://github.com/taqueci'
 end
 
-require_dependency 'redmine_share/views_hook'
+require File.expand_path('lib/redmine_share/views_hook', __dir__)
